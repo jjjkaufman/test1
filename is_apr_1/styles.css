@@ -1,0 +1,55 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 127, 80);
+    color: beige;
+    background-image: url("../assets/img/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+    background-color: gray;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    border: 8px solid black;
+    padding: 4px;
+    height: 400px;
+    /* margin: auto;
+    display: block; */
+}
+
+.rizz {
+    font-family: cursive;
+    color: chartreuse;
+    border: 8px dashed orangered;
+    font-size: 400%;
+    font-weight: bolder;
+    background-color: forestgreen;
+}
+
+.rizz:hover {
+    font-size: 450%;
+    color: springgreen;
+    border: 5px solid cyan;
+    background-color: tomato;
+}
+
+li {
+    width: fit-content;
+}
+
+li:hover {
+    text-decoration: underline 2px;
+    background-color: rgb(255, 0, 76);
+}
